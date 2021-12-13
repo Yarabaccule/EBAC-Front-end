@@ -1,0 +1,61 @@
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+thead{
+		background-color: #000000;
+		color: white;
+}
+
+tr:nth-child(even){
+		background-color: #CEECF5;
+
+}
+
+tbody tr:hover{
+	background-color: #BCF5A9;
+}
+
+tr .vazio{
+	background-color: white;
+}
+
+
+thead .peso-alt{
+	background-color: #D0A9F5;
+	font-weight: bold;
+	color: black;
+}
+
+table tbody {
+	background-color: #F6CEE3;
+}
+
+.dias{
+		background-color: #D0A9F5;
+
+}
+
+table th,
+table td {
+	padding: 1rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container table{
+    text-align: center
+}
+
+

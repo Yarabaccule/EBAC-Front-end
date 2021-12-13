@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img-bebes img{
+    width:20%;
+    border-radius: 25%;
+    margin: 6%;
+}
+
+.img-contato img{
+    width:50%;
+    margin: 3%;
+    filter: alpha;
+}
+
+.img-minha img{
+    width:20%;
+    border-radius: 50%;
+    margin: 2%; 
+}
+   
+

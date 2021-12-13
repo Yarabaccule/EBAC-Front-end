@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: auto;
+}
+
+.texto-1{
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #C0C0C0;
+    padding:0.5%;
+}
+
+.colun-3{
+    columns: 3;
+    padding: 2%;
+    text-align: center;
+    align-items: center;
+
+}
+
+.logo img{
+    width:15%
+}
+.social-media a{
+    color: #C0C0C0;
+    margin:0.5%;
+}
+.nav{
+    background-color:#f2f1ef;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:uppercase;
+    font-weight: bold;
+    height:50px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.view{
+    left: auto;
+    margin-top: 3%;
+    font-size: 40px;
+
+}
+.badge{
+    width: 30%;
+    height:50px;
+    margin-left: 2.2%;
+}
+
+.colun-2{
+    columns:2;
+    margin:5%;
+}
+
+.table-container p{
+    font-size: 30px;
+    text-align: center
+}
+
+form {
+	background: #eee;
+	padding: 10px;
+}
+
+form div {
+	background: #fff;
+	border-bottom: 1px solid #33f;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+.input{
+    margin-bottom: 5%;
+}
+
+div{
+    text-align:center
+}
+
+.map{
+    margin:2%;
+}
+.footer{
+    background-color:#C0C0C0;
+    height:50px;
+    text-align: center;
+    padding-top:1%
+}
+
+
+@media (max-width: 740px) {
+	.view{
+display: none;  
+}
+  .colun-2{
+      columns: 1;
+  }
+  .view{
+      width: 100%;
+  }
+  #carouselExampleIndicators{
+    display: none;  
+}
+
+}
